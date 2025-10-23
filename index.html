@@ -4,50 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security Test Failed</title>
-    <!-- Load Tailwind CSS for simple, modern styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /* Custom styles for the message */
-        .container-box {
-            background: #ffffff;
-            border: 3px solid #ef4444; /* Red border */
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        }
-        .main-message {
-            font-family: 'Inter', sans-serif;
-            color: #b91c1c; /* Darker red text */
-        }
-    </style>
 </head>
-<body class="bg-gray-50 flex items-center justify-center min-h-screen p-4">
-
-    <div class="container-box max-w-lg w-full rounded-xl p-8 space-y-6">
-        
-        <!-- Main Warning Message -->
-        <div class="text-center">
-            <h1 class="main-message text-4xl font-extrabold mb-4">You failed security test.</h1>
-            <p class="text-xl text-gray-700">Don't open random links</p>
+<body>
+    <h1>You failed the security test.</h1>
+    <p>Don't open random links.</p>
+    <!-- Visitor Counter (The core of your request) -->
+    <div>Page visitors counter:
+        <img src="https://hits.sh/github/vlad8x8/security.svg" 
+             alt="Visitor Count Badge">
         </div>
-
-        <hr class="border-red-200">
-
-        <!-- Visitor Counter (The core of your request) -->
-        <div class="text-center text-sm text-gray-500 pt-4">
-            <!-- 
-                This badge uses a third-party service (hits.sh) that tracks page views 
-                by counting how many times this specific image URL is loaded.
-                
-                *** REPLACE THE PLACEHOLDERS BELOW WITH YOUR INFO ***
-            -->
-            Page visitors counter:
-            <img 
-                src="https://hits.sh/vlad8x8/security.svg" 
-                alt="Visitor Count Badge" 
-                class="inline-block mt-1"
-            >
-        </div>
-
     </div>
-
 </body>
 </html>
+
